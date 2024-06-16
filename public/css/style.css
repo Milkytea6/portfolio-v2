@@ -1,0 +1,7 @@
+.hover:hover{
+    border: 10px solid black;
+    box-shadow: 5px 5px white;
+}
+.hover{
+    color: red;
+}
