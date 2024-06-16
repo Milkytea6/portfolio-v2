@@ -1,7 +1,33 @@
-.hover:hover{
-    border: 10px solid black;
-    box-shadow: 5px 5px white;
+.nav-hover:hover {
+    -moz-transform: translate(25px, 0px);
+    -webkit-transform: translate(25px, 0px);
+    -o-transform: translate(25px, 0px);
+    -ms-transform: translate(25px, 0px);
+    transform: translate(25px, 0px);
 }
-.hover{
-    color: red;
+
+.link-hover:hover {
+    -moz-transform: scale(1.1) translate(20px, 0px);
+    -webkit-transform: scale(1.1) translate(20px, 0px);
+    -o-transform: scale(1.1) translate(20px, 0px);
+    -ms-transform: scale(1.1) translate(20px, 0px);
+    transform: scale(1.1) translate(20px, 0px);
+}
+.icon-hover:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); 
+    fill: white;
+}
+.project-hover:hover{
+    border: 2px ridge #222222;
+    box-shadow: 10px 10px 5px #111111;
+}
+.project a img {
+    height: 100px;
+    width: 175px;
+    border: 2px ridge #222222;
+    box-shadow: 10px 10px 5px #111111;
 }
