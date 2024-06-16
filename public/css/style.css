@@ -3,11 +3,13 @@
     left: 0;
     top: 0;
     bottom: 0;
+    background-color: #101a31;
 }
 .container-2{
     position:absolute;
     right: 0;
     top: 0;
+    background-color: #101a31;
 }
 
 .nav-hover:hover {
