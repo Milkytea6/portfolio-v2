@@ -1,0 +1,9 @@
+services:
+  - name: Portfolio-v2
+    buildCommand:
+      - name: Install Dependencies
+        cmd: npm install
+      - name: Build Frontend
+        cmd: npm run seed
+      - name: Build Backend
+        cmd: npm run start
