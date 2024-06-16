@@ -17,6 +17,10 @@ Project.init({
         type: DataTypes.STRING,
         allowNull: false
     },
+    kebab: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     description: {
         type: DataTypes.TEXT,
         allowNull: false
@@ -29,6 +33,7 @@ Project.init({
         type: DataTypes.STRING,
         allowNull: false
     }
+
 },
     {
         sequelize,

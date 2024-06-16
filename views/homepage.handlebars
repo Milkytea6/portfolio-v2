@@ -70,9 +70,10 @@
                     <h2>PROJECTS</h2>
                     {{#each projects as |project| }}
                     <div class="project border-bottom border-light d-flex row">
+                        <img src="../public/img/screenshots/{{project.kebab}}.png">
                         <a class="link-light p-2 fs-3" href="{{project.link}}">{{project.title}}&#8599</a>
                         <p class="p-2">{{project.description}}</p>
-                        <a class="link-info p-2 fs-4 mb-5" href="{{project.repository}}">{{project.title}} repository</a>
+                        <a class="link-info p-2 fs-4 mb-5" href="{{project.repository}}">{{project.kebab}} repository</a>
                     </div>
                     {{/each}}
                 </div>
@@ -81,19 +82,12 @@
                 <div>
                        <p>
                         Inspiration from
-                        <a href="https://brittanychiang.com/" class="link-info text-decoration-none">Brittany Chiang</a>
-                        , coded in
-                        <a href="https://code.visualstudio.com/" class="link-info text-decoration-none">Virtual Studio Code</a>
-                        by me. Built with 
-                        <a href="https://expressjs.com/" class="link-info text-decoration-none">Express.js</a>
-                        ,
-                        <a href="https://sequelize.org/" class="link-info text-decoration-none">Sequelize</a>
-                        , and
-                        <a href="hhttps://getbootstrap.com/" class="link-info text-decoration-none">Bootstrap</a>
-                        . 
-                        Then deployed on
-                        <a href="https://render.com/" class="link-info text-decoration-none">Render</a>
-                        .
+                        <a href="https://brittanychiang.com/" class="link-info text-decoration-none">Brittany Chiang</a>, coded in
+                        <a href="https://code.visualstudio.com/" class="link-info text-decoration-none">Virtual Studio Code</a> by me. Built with 
+                        <a href="https://expressjs.com/" class="link-info text-decoration-none">Express.js</a>,
+                        <a href="https://sequelize.org/" class="link-info text-decoration-none">Sequelize</a>, and
+                        <a href="hhttps://getbootstrap.com/" class="link-info text-decoration-none">Bootstrap</a>. Then deployed on
+                        <a href="https://render.com/" class="link-info text-decoration-none">Render</a>.
                         </p>
                 </div>
             </footer>

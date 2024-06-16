@@ -1,27 +1,38 @@
 [
     {
-        "title": "weather-dashboard",
+        "title": "Weather Dashboard",
+        "kebab":"weather-dashboard",
         "description": "This weather dashboard can display the weather for today and include a 5 day forecast. The weather card will display the city name, weather, temperature, humidity, and wind speed. To use it the user can input a city name into the search bar and select search. the weather will display with the forecast under it. The input will save to local storeage to reference in the drop down. The user can also select a button to display the weather for that city without any input.",
         "link": "https://milkytea6.github.io/weather-dashboard/",
         "repository": "https://github.com/Milkytea6/weather-dashboard"
     },
     {
-        "title": "netflix-movie-picker",
+        "title": "Netflix Movie Picker",
+        "kebab":"netflix-movie-picker",
         "description": "Welcome to Netflix Movie Picker! This web application aims to simplify the daunting task of choosing a movie to watch on Netflix. With an extensive database of movies across various genres, Netflix Movie Picker provides you with a curated list of recommendations based on your selected preferences.",
         "link": "https://milkytea6.github.io/netflix-movie-picker/",
         "repository": "https://github.com/Milkytea6/netflix-movie-picker"
     },
     {
-        "title": "e-commerce-service",
+        "title": "E-Commerce Service",
+        "kebab":"e-commerce-service",
         "description": "An application where the user can use routes to get, post, update, and delete data on products, categories, and tags.",
         "link": "https://drive.google.com/file/d/1p_TE-ymuKgJG7OcIsmRoiJaRx0JHk-Ao/view?usp=sharing",
         "repository": "https://github.com/Milkytea6/e-commerce-service"
 
     },
     {
-        "title": "empolyee-payroll-tracker",
+        "title": "Empolyee Payroll Tracker",
+        "kebab":"empolyee-payroll-tracker",
         "description": "I was given starter code of an non-functioning employee payroll tracker. I added javascript to it in order for the 'Add Employees' button to work. It also averages up all the salaries and picks a random employee and logs it in the console.",
         "link": "https://milkytea6.github.io/empolyee-payroll-tracker/",
+        "repository": "https://github.com/Milkytea6/empolyee-payroll-tracker"
+    },
+    {
+        "title": "Task Board",
+        "kebab":"task-board",
+        "description": "The user can view a task board of different tasks organized by due date and progress of each task. The user will select Add Task then input a title, due date, and description. Then the task will render into the Not Yet Started column. When the user starts the task, they can move it to the In Progress column. Then when the user finished the task, they can move it to the completed column. The tasks will change color accoring to the deadline. The task will also save in local storage if the user closes the page and returns or refreshes the page.",
+        "link": "https://github.com/Milkytea6/task-board",
         "repository": "https://github.com/Milkytea6/empolyee-payroll-tracker"
     }
 ]
