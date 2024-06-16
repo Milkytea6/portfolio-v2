@@ -1,31 +1,31 @@
 <div class="container">
     <div class="row">
-        <div class="col">
-            <header>
-                <div class="header-section row d-flex flex-column">
+        <div class="col-lg-6 d-flex justify-center position-fixed start-0 bg-dark text-light p-2 h-100">
+            <header class="">
+                <div class="header-section row d-flex flex-column p-2">
                     <h1 class="p-3">Christopher Giordano</h1>
                     <h2 class="p-3">Web Developer</h2>
                     <p class="p-3">I am a student that has built many different websites and applications.</p>
                 </div>
-                <nav id="nav-id" class="navbar container">
+                <nav id="nav-id" class="navbar container p-2">
 
                     <div class="d-flex flex-column">
-                        <a class="navbar-brand text-light" href="#about">ABOUT</a>
-                        <a class="navbar-brand text-light" href="#experience">EXPERIENCE</a>
-                        <a class="navbar-brand text-light" href="#projects">PROJECTS</a>
+                        <a class="navbar-brand text-light hover" href="#about">ABOUT</a>
+                        <a class="navbar-brand text-light hover" href="#experience">EXPERIENCE</a>
+                        <a class="navbar-brand text-light hover" href="#projects">PROJECTS</a>
                     </div>
 
                 </nav>
-                <div class="social-links">
+                <div class="social-links mt-3 ">
                     <a href="https://www.linkedin.com/in/christopher-giordano-4486366b/" alt="Linkedin profile"
-                        class="d-inline-block" style="width: 50px; height: 50px;">
+                        class="d-inline-block p-2 hover" style="width: 50px; height: 50px;">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="grey" aria-hidden="true">
                             <path
                                 d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
                             </path>
                         </svg>
                     </a>
-                    <a href="https://github.com/Milkytea6" alt="Github profile" class="d-inline-block"
+                    <a href="https://github.com/Milkytea6" alt="Github profile" class="d-inline-block p-2 hover"
                         style="width: 50px; height: 50px;">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="grey" class="h-2 w-2"
                             aria-hidden="true">
@@ -37,9 +37,9 @@
                 </div>
             </header>
         </div>
-        <div class="col">
-            <main data-bs-spy="scroll" data-bs-target="#nav-id" data-bs-smooth-scroll="true">
-                <div id="about" class="about-section">
+        <div class="col-lg-6 position-absolute end-0 bg-dark text-light p-2">
+            <main data-bs-spy="scroll" data-bs-target="#nav-id" data-bs-smooth-scroll="true" class="w-50">
+                <div id="about" class="about-section p-2">
                     <h2>ABOUT</h2>
                     <p>
                         I am a bootcamp student learning to code for my first time.
@@ -50,7 +50,7 @@
                         these new skills.
                     </p>
                 </div>
-                <div id="experience" class="experience-section">
+                <div id="experience" class="experience-section p-2">
                     <h2>EXPERIENCE</h2>
                     <div>
                         <p>--past experience--</p>
@@ -69,27 +69,28 @@
                 <div id="projects" class="projects-section">
                     <h2>PROJECTS</h2>
                     {{#each projects as |project| }}
-                    <div class="project border-bottom border-light d-flex row">
+                    <div class="project border-bottom border-top border-light d-flex row p-2">
                         <img src="../public/img/screenshots/{{project.kebab}}.png">
-                        <a class="link-light p-2 fs-3" href="{{project.link}}">{{project.title}}&#8599</a>
+                        <a class="link-light p-2 fs-3 hover" href="{{project.link}}">{{project.title}}&#8599</a>
                         <p class="p-2">{{project.description}}</p>
-                        <a class="link-info p-2 fs-4 mb-5" href="{{project.repository}}">{{project.kebab}} repository</a>
+                        <a class="link-info p-2 fs-4 mb-3" href="{{project.repository}}">{{project.kebab}} repository</a>
                     </div>
                     {{/each}}
                 </div>
-            </main>
-            <footer>
                 <div>
                        <p>
                         Inspiration from
-                        <a href="https://brittanychiang.com/" class="link-info text-decoration-none">Brittany Chiang</a>, coded in
-                        <a href="https://code.visualstudio.com/" class="link-info text-decoration-none">Virtual Studio Code</a> by me. Built with 
-                        <a href="https://expressjs.com/" class="link-info text-decoration-none">Express.js</a>,
-                        <a href="https://sequelize.org/" class="link-info text-decoration-none">Sequelize</a>, and
-                        <a href="hhttps://getbootstrap.com/" class="link-info text-decoration-none">Bootstrap</a>. Then deployed on
-                        <a href="https://render.com/" class="link-info text-decoration-none">Render</a>.
+                        <a href="https://brittanychiang.com/" class="link-info text-decoration-none hover">Brittany Chiang</a>, coded in
+                        <a href="https://code.visualstudio.com/" class="link-info text-decoration-none hover">Virtual Studio Code</a> by me. Built with 
+                        <a href="https://expressjs.com/" class="link-info text-decoration-none hover">Express.js</a>,
+                        <a href="https://sequelize.org/" class="link-info text-decoration-none hover">Sequelize</a>, and
+                        <a href="hhttps://getbootstrap.com/" class="link-info text-decoration-none hover">Bootstrap</a>. Then deployed on
+                        <a href="https://render.com/" class="link-info text-decoration-none hover">Render</a>.
                         </p>
                 </div>
+            </main>
+            <footer>
+
             </footer>
         </div>
     </div>
