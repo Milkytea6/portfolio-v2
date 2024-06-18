@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row d-flex">
-        <div class="col-lg-6 d-flex justify-center container-1 text-light p-2 h-100">
+        <div class="col-lg-6 col-sm-12 d-flex justify-center container-1 p-2">
             <header class="">
                 <div class="header-section row d-flex flex-column p-2">
                     <h1 class="p-3">Christopher Giordano</h1>
@@ -38,11 +38,11 @@
                 </div>
             </header>
         </div>
-        <div class="col-lg-6 container-2 text-light p-2">
+        <div class="col-lg-6 col-sm-12 container-2 p-2">
             <main data-bs-spy="scroll" data-bs-target="#nav-id" data-bs-smooth-scroll="true" class="w-75">
                 <div id="about" class="about-section p-2">
-                    <h2>ABOUT</h2>
-                    <p>
+                    <h2 class="p-2">ABOUT</h2>
+                    <p class="p-2">
                         I am a bootcamp student learning to code for my first time.
                         I have created and contributed to many projects over the last couple months that have tought me
                         a lot about the industry.
@@ -52,7 +52,7 @@
                     </p>
                 </div>
                 <div id="experience" class="experience-section p-2">
-                    <h2>EXPERIENCE</h2>
+                    <h2 class="p-2">EXPERIENCE</h2>
                     <div>
                         <div class="project-hover p-2">
                             <a class="link-light link-hover p-2 text-decoration-none"
@@ -89,24 +89,24 @@
 
                 </div>
                 <div id="projects" class="projects-section">
-                    <h2>PROJECTS</h2>
+                    <h2 class="p-2">PROJECTS</h2>
                     {{#each projects as |project| }}
-                    <div class="project project-hover d-flex row p-2">
+                    <div class="project project-hover d-flex row ms-2 p-2">
 
                         <a class="link-light link-hover p-2 fs-3 text-decoration-none" href="{{project.link}}">
                             <img src="/img/screenshots/{{project.kebab}}.png" class="m-3 fs-5"
                                 alt="Link to {{project.title}}. {{project.description}}">
                             <h3 class="d-inline-block p-2">{{project.title}}&#8599</h3>
-                            <p class="p-2 me-5 fs-5 text-decoration-none">{{project.description}}</p>
+                            <p class="p-3 me-5 fs-5 text-decoration-none">{{project.description}}</p>
                         </a>
-                        <a class="link-light link-hover p-2 fs-5 mb-3 text-decoration-none"
+                        <a class="link-light link-hover fs-5 mb-3 text-decoration-none"
                             href="{{project.repository}}">&#8599{{project.title}} Github
                             Repository</a>
                     </div>
                     {{/each}}
                 </div>
                 <div>
-                    <p>
+                    <p class="p-2">
                         Inspiration from
                         <a href="https://brittanychiang.com/" class="link-info text-decoration-none hover">Brittany
                             Chiang</a>, coded in
