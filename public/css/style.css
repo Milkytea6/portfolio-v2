@@ -42,12 +42,16 @@ footer{
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    fill: white;
+    fill: rgb(94, 234, 212);
 }
 
 .project-hover:hover {
     border: 2px ridge #222222;
     box-shadow: 10px 10px 5px #111111;
+}
+a h3:hover{
+    color:  rgb(94, 234, 212);
+
 }
 
 .project a img {
