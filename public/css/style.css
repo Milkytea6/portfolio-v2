@@ -28,14 +28,6 @@ footer{
     transform: translate(25px, 0px);
 }
 
-.link-hover:hover {
-    -moz-transform: scale(1.1) translate(20px, 0px);
-    -webkit-transform: scale(1.1) translate(20px, 0px);
-    -o-transform: scale(1.1) translate(20px, 0px);
-    -ms-transform: scale(1.1) translate(20px, 0px);
-    transform: scale(1.1) translate(20px, 0px);
-}
-
 .icon-hover:hover {
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -49,14 +41,19 @@ footer{
     border: 2px ridge #222222;
     box-shadow: 10px 10px 5px #111111;
 }
+.project a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 a h3:hover{
     color:  rgb(94, 234, 212);
-
 }
 
 .project a img {
-    height: 100px;
-    width: 175px;
+    height: 135px;
+    width: 240px;
     border: 2px ridge #222222;
     box-shadow: 10px 10px 5px #111111;
 }

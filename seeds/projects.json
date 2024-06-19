@@ -9,7 +9,7 @@
     {
         "title": "Netflix Movie Picker",
         "kebab":"netflix-movie-picker",
-        "description": "Welcome to Netflix Movie Picker! This web application aims to simplify the daunting task of choosing a movie to watch on Netflix. With an extensive database of movies across various genres, Netflix Movie Picker provides you with a curated list of recommendations based on your selected preferences.",
+        "description": "A web application with an extensive database of movies across various genres, Netflix Movie Picker provides you with a curated list of recommendations based on your selected preferences.",
         "link": "https://milkytea6.github.io/netflix-movie-picker/",
         "repository": "https://github.com/Milkytea6/netflix-movie-picker"
     },
